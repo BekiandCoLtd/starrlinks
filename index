@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>StarLink Data Direct to Cell</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div class="app">
+
+    <h1 class="brand">
+        <span class="blue">StarLink Data</span>
+        <span class="green">Direct to Cell</span>
+    </h1>
+
+    <p class="tagline">Secure coverage • wide coverage • Direct to device</p>
+
+ <div class="notice">
+    ⚠ Choose your desired package and complete payment to get instant activation.
+</div>
+</div>
+    <!-- Activity -->
+    <div class="activity-wrapper">
+        <div class="activity-label">Recent Activity (Sample Data)</div>
+        <div class="activity-card">
+            <div class="pulse"></div>
+            <div id="activityText"></div>
+        </div>
+        <div class="progress">
+            <div id="progressBar"></div>
+        </div>
+    </div>
+
+    <div class="section-title">Select Your Package</div>
+
+    <div class="grid">
+
+        <!-- 24 HOURS -->
+        <div class="card" data-size="5GB" data-price="49" data-duration="24 hrs">
+            <h2>5GB</h2>
+            <span>Fee: Ksh 49 • 24 hrs</span>
+        </div>
+
+        <div class="card" data-size="7.5GB" data-price="80" data-duration="24 hrs">
+            <h2>7.5GB</h2>
+            <span>Fee: Ksh 80 • 24 hrs</span>
+        </div>
+
+        <!-- 48 HOURS -->
+        <div class="card" data-size="10GB" data-price="120" data-duration="48 hrs">
+            <h2>10GB</h2>
+            <span>Fee: Ksh 120 • 48 hrs</span>
+        </div>
+
+        <div class="card featured" data-size="12.5GB" data-price="140" data-duration="48 hrs">
+            <h2>12.5GB</h2>
+            <span>Fee: Ksh 140 • 48 hrs</span>
+        </div>
+
+        <!-- 7 DAYS -->
+        <div class="card" data-size="16GB" data-price="180" data-duration="7 days">
+            <h2>16GB</h2>
+            <span>Fee: Ksh 180 • 7 days</span>
+        </div>
+
+        <div class="card" data-size="21GB" data-price="200" data-duration="7 days">
+            <h2>21GB</h2>
+            <span>Fee: Ksh 200 • 7 days</span>
+        </div>
+
+        <div class="card" data-size="25.5GB" data-price="220" data-duration="7 days">
+            <h2>25.5GB</h2>
+            <span>Fee: Ksh 220 • 7 days</span>
+        </div>
+
+        <div class="card" data-size="30GB" data-price="350" data-duration="7 days">
+            <h2>30GB</h2>
+            <span>Fee: Ksh 350 • 7 days</span>
+        </div>
+
+        <!-- 14 DAYS -->
+        <div class="card" data-size="35GB" data-price="420" data-duration="14 days">
+            <h2>35GB</h2>
+            <span>Fee: Ksh 420 • 14 days</span>
+        </div>
+
+        <div class="card" data-size="40GB" data-price="540" data-duration="14 days">
+            <h2>40GB</h2>
+            <span>Fee: Ksh 540 • 14 days</span>
+        </div>
+
+        <!-- 30 DAYS -->
+        <div class="card" data-size="45GB" data-price="680" data-duration="30 days">
+            <h2>45GB</h2>
+            <span>Fee: Ksh 680 • 30 days</span>
+        </div>
+
+        <div class="card" data-size="50GB" data-price="960" data-duration="30 days">
+            <h2>50GB</h2>
+            <span>Fee: Ksh 960 • 30 days</span>
+        </div>
+
+        <div class="card" data-size="60GB" data-price="1550" data-duration="30 days">
+            <h2>60GB</h2>
+            <span>Fee: Ksh 1550 • 30 days</span>
+        </div>
+
+        <div class="card" data-size="Unlimited Data" data-price="2000" data-duration="30 days">
+            <h2>Unlimited Data</h2>
+            <span>Fee: Ksh 2000 • 30 days</span>
+        </div>
+
+    </div>
+
+    <button id="ctaBtn" class="cta disabled">
+        ⚡ Select a Package
+    </button>
+
+    <div class="badges">
+        <div>🔒 Secure</div>
+        <div>⚡ Instant</div>
+        <div>✔ Verified</div>
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+
