@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Payment Instructions</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="app">
+
+    <div class="top-bar">
+        <a href="index.html" class="back-btn">←</a>
+    </div>
+
+    <div class="payment-card">
+
+        <div class="selected-info">
+            <p class="selected-text">
+                You've selected our premium package:
+            </p>
+
+            <h3 id="selectedPackageTitle"></h3>
+
+            <p class="instruction-text">
+                Please follow these M-Pesa payment instructions:
+            </p>
+        </div>
+
+        <div class="divider"></div>
+
+        <div class="steps">
+
+            <div class="step"><span class="number">1</span>Go to <strong>M-Pesa</strong></div>
+            <div class="step"><span class="number">2</span>Select <strong>Lipa na M-Pesa</strong></div>
+            <div class="step"><span class="number">3</span>Select <strong>Buy Goods</strong></div>
+
+            <div class="step">
+                <span class="number">4</span>
+                <div class="till-wrapper">
+                    <span>Enter Till Number</span>
+                    <div class="till-box">
+                        <span id="tillNumber">5622370</span>
+                        <button id="copyBtn">Copy</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="step"><span class="number">5</span>Enter exact package amount</div>
+            <div class="step"><span class="number">6</span>Enter your PIN and confirm<strong>GADGETCOM VENTURES</strong></div>
+
+        </div>
+
+        <div class="success-note">
+            Your package will activate automatically after confirmed payment.
+        </div>
+
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
+
+
+
